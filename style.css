@@ -99,6 +99,7 @@ margin-top: 16%;
     flex-direction: column;
     text-align: justify;
     width: 55%;
+    margin-right: 25px;
 }
 .aboutme a{
     color: white;
