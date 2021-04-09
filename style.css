@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+    *{
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    }
+     /* .container{
+        background: #021B33;
+        height: 100%;
+        width: 100%;
+     }   */
+     body{
+         height: 1000vh;
+         /* height: auto;  */
+         width: 100%;
+         background: #010d18;
+         font-family: 'Roboto Slab', serif;
+     }
+     nav{
+        height: 80px;
+        width: 100%;
+    } 
+    label.logo{
+        color: white;
+        font-size: 35px;
+        line-height: 80px;
+        padding: 0 100px;
+        font-weight: bold;
+    }
+    label.logo span {
+        color: crimson;
+    }
+    nav ul{
+        float: right;
+        margin-right: 20px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+    }
+    nav li a{
+        color: white;
+        font-size: 17px;
+        text-transform: uppercase;
+        padding: 7px 13px;
+        border-radius: 3px;
+    }
+    a.active,a:hover{
+        background: #1bddff;
+        transition:  .5s;
+    }
+.container{
+color: white;
+text-align: center;
+margin-top: 16%;
+}
+.container i{
+    color: white;
+}
+.container h1{
+    font-size: 50px;
+    margin-bottom: 9px;
+}
+.about {
+    position: relative;
+    margin-top: 20%;
+}
+.about .container1 {
+    position: relative;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.about .container1 h1{
+    text-align-last: left;
+}
+.about .profile {
+    width: 400px;
+    text-align: center;
+}
+.about .profile img {
+    z-index: -1;
+    width: 90%;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.about .aboutme {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    width: 55%;
+}
+.aboutme a{
+    color: white;
+}
